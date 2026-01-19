@@ -1,0 +1,70 @@
+{
+  "mapping_per_file": {
+    "Bảng kê diễn biến ký hợp đồng (Quản trị)_TAHCM.xlsx": {
+      "ChassisNo": "chassis_no",
+      "EngineNo": "engine_no",
+      "NumberPlate": "number_plate",
+      "CustomerNameDms": "customer_name",
+      "Tel": "tel",
+      "DmsIdCardNo": "dms_idcardno",
+      "CustomerCode_DmsCus": "customer_code",
+      "DizCode": "dizcode",
+      "CusTypeName": "custype"
+    },
+    "Bảng kê bán hàng.xlsx": {
+      "ChassisNo": "chassis_no",
+      "DmsIdCardNo": "dms_idcardno",
+      "CustomerNameDms": "customer_name",
+      "Tel": "tel",
+      "TaxRegNoDms": "taxregno",
+      "VehicleCode": "vehicle_code"
+    },
+    "Tiếp_xuc_khach_hang_2024.xlsx": {
+      "CustomerName": "customer_name",
+      "Tel": "tel",
+      "VehicleCode": "vehicle_code"
+    },
+    "Tiếp_xuc_khach_hang_2025.xlsx": {
+      "CustomerName": "customer_name",
+      "Tel": "tel",
+      "VehicleCode": "vehicle_code"
+    },
+    "Dat_lich_hen_sua_chua.xlsx": {
+      "ChassisNumber": "chassis_no",
+      "EngineNumber": "engine_no",
+      "CustomerName": "customer_name",
+      "Tel": "tel",
+      "ModelCarCode": "vehicle_code"
+    },
+    "Bao_cao_cham_soc_suachua.xlsx": {
+      "ChassisNumber": "chassis_no",
+      "EngineNumber": "engine_no",
+      "NumberPlate": "number_plate",
+      "CustomerName": "customer_name",
+      "Tel": "tel",
+      "MobileContact": "tel",
+      "ModelCarCode": "vehicle_code"
+    },
+    "DS_xe_dang_ky_bao_hanh.xlsx": {
+      "ChassisNo": "chassis_no",
+      "EngineNo": "engine_no",
+      "NumberPlate": "number_plate",
+      "CustomerName": "customer_name",
+      "Tel": "tel",
+      "Contact_Tel": "contact_tel",
+      "ModelCarCode": "vehicle_code"
+    }
+  },
+  "weights": {
+    "chassis_no": 10,
+    "engine_no": 8,
+    "number_plate": 7,
+    "tel": 5,
+    "dms_idcardno": 9,
+    "customer_code": 9,
+    "customer_name_fuzzy": 3,
+    "vehicle_code": 1
+  },
+  "threshold": 10,
+  "notes": "Auto/mode sample mapping skeleton — edit mapping_per_file column names to match exact headers in your files."
+}

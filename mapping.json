@@ -1,0 +1,12 @@
+{
+  "mapping_per_file": {
+    "Bảng kê SRĐL XHĐ_ TAHCM.xlsx": {
+      "DmsIdCardNo": "id_no"
+    },
+    "Bảng kê diễn biến ký hợp đồng (Quản trị)_TAHCM.xlsx": {
+      "TaxRegNoDms": "tax_no",
+      "DmsIdCardNo": "id_no"
+    }
+  },
+  "notes": "Auto-generated minimal mapping. Edit manually if needed."
+}
